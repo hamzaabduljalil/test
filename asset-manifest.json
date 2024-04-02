@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.1451c5b4.css",
+    "main.js": "/test/static/js/main.57703217.js",
+    "static/js/453.ed3810f9.chunk.js": "/test/static/js/453.ed3810f9.chunk.js",
+    "static/media/image3.jpg": "/test/static/media/image3.7a8a7313820337c4ca79.jpg",
+    "static/media/image2.jpg": "/test/static/media/image2.faaf1dd7165c2ecf7456.jpg",
+    "static/media/image1.jpg": "/test/static/media/image1.ee299474a7dcbb653b7d.jpg",
+    "static/media/b8-architecture-contact-image.jpg": "/test/static/media/b8-architecture-contact-image.debc9c709ba12d027c29.jpg",
+    "static/media/ceo.jpg": "/test/static/media/ceo.3a0e56071610742389b7.jpg",
+    "static/media/24.jpg": "/test/static/media/24.c004b1da7a01f38b11fc.jpg",
+    "static/media/b8-the-team-marino-banon.jpg": "/test/static/media/b8-the-team-marino-banon.e859e45b4f18b66784b4.jpg",
+    "static/media/23.jpg": "/test/static/media/23.93317ce8239503380245.jpg",
+    "static/media/logo1.png": "/test/static/media/logo1.10c39e40fef6470cc122.png",
+    "static/media/footer.svg": "/test/static/media/footer.f9bd9b1e2a44bc1dbc1ac83fda679c1e.svg",
+    "index.html": "/test/index.html",
+    "main.1451c5b4.css.map": "/test/static/css/main.1451c5b4.css.map",
+    "main.57703217.js.map": "/test/static/js/main.57703217.js.map",
+    "453.ed3810f9.chunk.js.map": "/test/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1451c5b4.css",
+    "static/js/main.57703217.js"
+  ]
+}
