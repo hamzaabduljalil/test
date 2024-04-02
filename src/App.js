@@ -13,16 +13,16 @@ function App() {
   }, []);
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Home></Home>} />
-      </Routes>{" "}
+      
+        <Home></Home>
+      
       <div data-aos="fade-down">
-        <Routes>
-          <Route path="/Team" element={<Team></Team>} />
-          <Route path="/Contact" element={<Contact></Contact>} />
-          <Route path="/we-are" element={<WeAre></WeAre>} />
-          {/*  */}
-        </Routes>
+        
+          <Team></Team>}
+        <Contact></Contact>
+          <WeAre></WeAre>
+        
+        
       </div>
       <Footer></Footer>
     </div>
