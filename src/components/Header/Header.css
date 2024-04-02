@@ -1,0 +1,49 @@
+#header {
+  background-color: transparent !important;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  z-index: 100;
+}
+#header-link {
+  padding-right: 70px !important;
+}
+#header-link a {
+  position: relative;
+  font-size: 15.3px;
+  margin-right: 50px;
+}
+#header-link a::after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  right: 0px;
+  bottom: -10px;
+  border-bottom: 1px solid black;
+  transition: all 0.5s;
+}
+#header-link a:hover:after {
+  transform: translateY(-9px);
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  #header-link {
+    margin-top: 110px !important;
+    padding: 0 !important;
+  }
+  #header-link a {
+    font-size: 30px;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  #header-link a:hover:after {
+    opacity: 0;
+  }
+
+  .mobile {
+    vertical-align: middle;
+    text-align: center;
+  }
+}

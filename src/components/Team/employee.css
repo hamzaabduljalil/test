@@ -1,0 +1,63 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  padding-top: 80px;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.box:hover img {
+  transform: translate3d(40px, 0, 0);
+}
+.item .imgs {
+  position: relative;
+  background: none;
+  overflow: hidden;
+  padding-right: 40px;
+}
+.item .imgs img {
+  width: 256px;
+  height: 199;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.item .description {
+  position: absolute;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16),
+    0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+  bottom: 30px;
+  right: 10px;
+  z-index: 5;
+  display: inline-block;
+  background: #fff;
+  opacity: 0.9;
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+.item .description .name {
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+.item .description .position {
+  font-weight: 300;
+  padding: 0;
+  margin: 5px 0 0 0;
+  display: block;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+}
